@@ -7,7 +7,7 @@
 * Bonus Exercise: Compare two arrays and output all matching values. 
 
 
-## Stage Page
+## Staff Page
 I took a minimalist approach to the staff page. The webpage has a color scheme of blacks and whites, with the employee photos adding color to the page once a user hovers over them. 
 
 
