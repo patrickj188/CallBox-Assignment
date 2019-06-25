@@ -17,3 +17,8 @@ I took the same approach to the navigation bar. The navigation bar's functionali
 
 ## Bonus Exercise
 The bonus exercise is in the index.js file. I console logged the results which can be viewed in the console of the inspector tools.  I approached this exercise in two different ways. First, I used the javascript method includes and compared the arrays. Second, I looped through both arrays and pushed any matching item to a new array. 
+
+
+
+
+#### Link: https://patrickj188.github.io/CallBox-Assignment/#
