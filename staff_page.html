@@ -6,36 +6,40 @@
     <title></title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css?family=Poppins|Staatliches&display=swap" rel="preload" as="style">
     <link href="https://fonts.googleapis.com/css?family=Poppins|Staatliches&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./assets/styles/styles.css">
 </head>
-<nav>
-    <ul>
-        <li><a href="./staff_page.html">Home</a></li>
-        <li class="dropdown">
-            <a class="dropbtn">Inventory</a>
-            <div class="dropdown-content">
-                <a href="#">New</a>
-                <a href="#">Used</a>
-                <a href="#">Cars</a>
-                <a href="#">Trucks</a>
-                <a href="#">SUV'S</a>
-            </div>
-        </li>
-        <li><a href="./staff_page.html">About us</a></li>
-        <li><a href="#news">Contact</a></li>
-    </ul>
+
+<!-- NavBar  -->
+
+<nav class="dropDownNav" id="navBar">
+    <a href="#home" class="active">Home</a>
+    <div class="dropdown">
+        <button class="dropbtn">Inventory
+        </button>
+        <div class="dropdown-content">
+            <a href="#">New</a>
+            <a href="#">Used</a>
+            <a href="#">Cars</a>
+            <a href="#">Trucks</a>
+            <a href="#">SUV'S</a>
+        </div>
+    </div>
+    <a href="#aboutUs">About Us</a>
+    <a href="#contact">Contact</a>
 </nav>
 
 <body>
     <div id="staff-page-heading">
-        <!-- <img class="heading-img" src="assets/images/background_1.jpg"> -->
         <h1>We love the people we work with</h1>
-
-
     </div>
 
-    <article id="staff-info">
+    <!-- Main Container  -->
+
+    <main id="staff-info">
+
+        <!-- Sales section  -->
 
         <h1 class="department-title">Sales Department</h1>
         <section class="department">
@@ -64,10 +68,11 @@
                         <h4>702-555-5552</h4>
                     </div>
                 </div>
-
             </div>
-
         </section>
+
+        <!-- Service section  -->
+
         <h1 class="department-title">Service Department</h1>
         <section class="department">
             <div class="employee card">
@@ -82,7 +87,6 @@
                         <h4>702-555-5553</h4>
                     </div>
                 </div>
-
             </div>
             <div class="employee card">
                 <img class="img" src="assets/images/placeholder_4.jpg">
@@ -96,16 +100,14 @@
                         <h4>702-555-5554</h4>
                     </div>
                 </div>
-
             </div>
-
         </section>
 
-        <h1 class="department-title">Parts Department</h1>
+        <!-- Parts section  -->
 
+        <h1 class="department-title">Parts Department</h1>
         <section class="department">
             <div class="employee card">
-
                 <img class="img parts-department" src="assets/images/placeholder_5.jpg">
                 <div class="employee-info">
                     <div>
@@ -117,11 +119,8 @@
                         <h4>702-555-5555</h4>
                     </div>
                 </div>
-
-
             </div>
             <div class="employee card">
-
                 <img class="img parts-department" src="assets/images/placeholder_6.jpg">
                 <div class="employee-info">
                     <div>
@@ -133,11 +132,8 @@
                         <h4>702-555-5556</h4>
                     </div>
                 </div>
-
-
             </div>
             <div class="employee card">
-
                 <img class="img parts-department" src="assets/images/placeholder_7.jpg">
                 <div class="employee-info">
                     <div>
@@ -149,14 +145,14 @@
                         <h4>702-555-5557</h4>
                     </div>
                 </div>
-
-
             </div>
-
         </section>
+
+        <!-- Finance section  -->
+
         <h1 class="department-title">Finance Department</h1>
-        <div class="department">
-            <section class="employee card">
+        <section class="department">
+            <div class="employee card">
 
                 <img class="img" src="assets/images/placeholder_8.jpg">
                 <div class="employee-info">
@@ -169,12 +165,11 @@
                         <h4>702-555-5558</h4>
                     </div>
                 </div>
+            </div>
+        </section>
+    </main>
 
-
-            </section>
-
-    </article>
-    <footer id="footer">
+    <footer>
         <div>
             <h4>Patrick Johnson</h4>
             <h4>|</h4>

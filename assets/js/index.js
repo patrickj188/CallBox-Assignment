@@ -1,7 +1,8 @@
-// document.querySelector('.dropbtn').addEventListener('mouseenter', function(){
-//     document.querySelector('.dropdown-content').style.visibility = 'visible'
-//   })
-  
-//   document.querySelector('.dropbtn').addEventListener('mouseleave', function(){
-//     document.querySelector('.dropdown-content').style.visibility = 'hidden'
-//   })
+let dropDownFunction = () => {
+   const dropDown = document.getElementById("navBar");
+    if (dropDown.className === "dropDownNav") {
+        dropDown.className += " responsive";
+    } else {
+        dropDown.className = "dropDownNav";
+    }
+}
