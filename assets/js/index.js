@@ -1,3 +1,5 @@
+//  Drop down menu JS
+
 let dropDownFunction = () => {
     const dropDown = document.getElementById("navBar");
     if (dropDown.className === "dropDownNav") {
@@ -8,17 +10,18 @@ let dropDownFunction = () => {
 }
 
 
-
-
 // Bonus Challenge 
-
 
 let array_one = ["apple", "dog", "cat", "food", "kite", "elephant", "lunch", "book", "laptop"]
 let array_two = ["dog", "goose", "kite", "meal", "laptop"];
 
+//  solved using one line
+
 const matchingValues = array_one.filter(e => array_two.includes(e));
 
 console.log(matchingValues);
+
+// solved using a double loop 
 
 let matchedArr = (arrOne, arrTwo) => {
     let match = [];
